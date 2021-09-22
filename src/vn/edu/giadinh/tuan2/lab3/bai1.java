@@ -22,5 +22,6 @@ public class bai1 {
 			System.out.printf("%d la so nguyen to\n", n);
 		else
 			System.out.printf("%d khong phai so nguyen to\n", n);
+		scanner.close();
 	}
 }

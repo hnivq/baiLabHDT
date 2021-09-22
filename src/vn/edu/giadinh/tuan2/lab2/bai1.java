@@ -15,10 +15,11 @@ public class bai1 {
 		b = scanner.nextDouble();
 		if(a == 0)
 			if(b == 0)
-				System.out.println("Phuong trinh vo so nghiem");
+				System.out.println("Phuong trinh vo so nghiem\n");
 			else
-				System.out.println("Phuong trinh vo nghiem");
+				System.out.println("Phuong trinh vo nghiem\n");
 		else
-			System.out.printf("x = %.3f", -b/a);
+			System.out.printf("x = %.3f\n", -b/a);
+		scanner.close();
 	}
 }

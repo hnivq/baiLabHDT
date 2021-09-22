@@ -9,5 +9,6 @@ public class bai3 {
 		canh = scanner.nextDouble();
 		double thetich = Math.pow(canh, 3);
 		System.out.printf("The tich cua lap phuong = %.3f", thetich);
+		scanner.close();
 	}
 }

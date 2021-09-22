@@ -1,7 +1,7 @@
 package vn.edu.giadinh.tuan2.lab3;
 
 
-import java.util.Formatter;
+
 
 public class bai2{
 	public static void main(String[] args) {

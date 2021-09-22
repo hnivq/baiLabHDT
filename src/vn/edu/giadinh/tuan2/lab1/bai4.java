@@ -15,5 +15,6 @@ public class bai4 {
 		double delta;
 		delta = Math.pow(b, 2) - 4 * a * c;
 		System.out.printf("Can bac hai cua delta = %.3f", Math.sqrt(delta));
+		scanner.close();
 	}
 }

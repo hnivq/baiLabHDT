@@ -46,6 +46,7 @@ public class bai2 {
 			phuongTrinhBacNHat(b, c);
 		else
 			phuongTrinhBacHai(a,b,c);
+		scanner.close();
 	}
 
 }

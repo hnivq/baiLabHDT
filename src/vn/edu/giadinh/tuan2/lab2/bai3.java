@@ -13,5 +13,6 @@ public class bai3 {
 		else
 		 	tien = 50 * muc1 + (soDien - 50) * muc2;
 		System.out.printf("Tien dien thang nay = %d\n", tien);
+		scanner.close();
 	}
 }

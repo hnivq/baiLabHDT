@@ -10,5 +10,6 @@ public class bai1 {
 		System.out.print("Diem TB: ");
 		double diemTB = scanner.nextDouble();
 		System.out.printf("%s %.3f diem", hoTen, diemTB);
+		scanner.close();
 	}	
 }

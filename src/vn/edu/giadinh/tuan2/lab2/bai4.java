@@ -47,5 +47,6 @@ public class bai4 {
 					break;
 			}
 		}while(luaChon != 0);
+		scanner.close();
 	}
 }
