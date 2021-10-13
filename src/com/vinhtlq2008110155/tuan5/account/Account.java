@@ -1,10 +1,9 @@
-package com.vinhtlq2008110155.Bank;
 /*
-* create date Sep 30, 2021
-* create time: 11:11:24 AM
+* create date Oct 13, 2021
+* create time: 7:20:30 PM
 * author: hinvq
 */
-
+package com.vinhtlq2008110155.tuan5.account;
 
 public class Account {
 	int account_number;
@@ -29,6 +28,5 @@ public class Account {
 	void withdraw(){
 		account_balance -= 50;
 		System.out.println("Account Balance = " + account_balance);
-	}
-
+	}	
 }

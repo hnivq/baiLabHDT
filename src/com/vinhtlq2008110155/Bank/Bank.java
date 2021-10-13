@@ -6,12 +6,9 @@ package com.vinhtlq2008110155.Bank;
 */
 public class Bank {
 	public static void main(String[] args) {
-		// Account account = new Account();
-		// account.create();
-		// account.show();
-		Customer customer = new Customer();
-		customer.getName();
-		customer.getAddress();
-		customer.show();
+		Account account = new Account(00001,10000000);
+		account.show();
+		account.deposit();
+		account.withdraw();
 	}
 }
