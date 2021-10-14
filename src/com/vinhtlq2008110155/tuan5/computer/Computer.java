@@ -9,8 +9,28 @@ public class Computer {
 	String producer;
 	String releaseYear;
 	String os;
-	String ram;
+	int ram;
 	String cpu;
 	String price;
 	String baoHanh;
+
+	Computer(String nhaSX, String namSX, String heDH, int r, String c, String gia, String bH){
+		producer = nhaSX;
+		releaseYear = namSX;
+		os = heDH;
+		ram = r;
+		cpu = c;
+		price = gia;
+		baoHanh = bH;
+	}
+
+	void show(){
+		System.out.println("Nha san xuat: " + producer);
+		System.out.println("Nam ra mat: " + releaseYear);
+		System.out.println("He dieu hanh: " + os);
+		System.out.println("Ram: " + ram);
+		System.out.println("Cpu: " + cpu);
+		System.out.println("Gia: " + price);
+		System.out.println("Bao hanh: " + baoHanh);
+	}
 }
