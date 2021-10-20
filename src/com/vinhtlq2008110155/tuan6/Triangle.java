@@ -7,15 +7,15 @@ package com.vinhtlq2008110155.tuan6;
 
 public class Triangle {
 	String amThanh = "Triangle sound"	;
-	boolean check = false;
+	boolean state = false;
 
 	void rotare(){
 		System.out.println("Da xoay 360, backlip cac thu"); 
-		check = true;	
+		state = true;	
 	}
 
 	void playSound(){
-		if(check == true)
+		if(state == true)
 		{
 			System.out.println("Am thanh dang duoc phat: " + amThanh);
 			System.out.println("	***Ket thuc***");
