@@ -11,13 +11,13 @@ public class Screen {
 		Square vuong = new Square();
 		Circle tron = new Circle();
 
-		tamGiac.rotare();
+		tamGiac.rotate();
 		tamGiac.playSound();
 
-		vuong.rotare();
+		vuong.rotate();
 		vuong.playSound();
 
-		tron.rotare();
+		tron.rotate();
 		tron.playSound();
 	}
 }

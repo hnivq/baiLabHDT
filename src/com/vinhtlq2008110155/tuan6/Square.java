@@ -9,7 +9,7 @@ public class Square {
 	String amThanh = "Square sound"	;
 	boolean state = false;
 
-	void rotare(){
+	void rotate(){
 		System.out.println("Da xoay 360, backlip cac thu"); 
 		state = true;	
 	}

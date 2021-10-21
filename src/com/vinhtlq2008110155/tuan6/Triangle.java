@@ -9,7 +9,7 @@ public class Triangle {
 	String amThanh = "Triangle sound"	;
 	boolean state = false;
 
-	void rotare(){
+	void rotate(){
 		System.out.println("Da xoay 360, backlip cac thu"); 
 		state = true;	
 	}
