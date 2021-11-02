@@ -6,6 +6,11 @@
 package com.vinhtlq2008110155.tuan7.animal;
 
 public class Canine extends Animal{
+	
+	public Canine(String picture, String food, int hunger){
+		super(picture, food, hunger);
+	}
+
 	@Override
 	protected void roam() {
 		System.out.println("Thích đi bầy đàn");

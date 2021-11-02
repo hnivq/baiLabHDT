@@ -10,6 +10,11 @@ public class Cat extends Feline{
 	protected String food = "Thức ăn cho mèo cao cấp";
 	protected int hunger = 5;
 
+	public Cat(String picture, String food, int hunger)
+	{
+		super(picture,food,hunger);
+	}
+
 	@Override
 	protected void makeNoise() {
 		System.out.println("Mồn lèo đang kêu !!!");

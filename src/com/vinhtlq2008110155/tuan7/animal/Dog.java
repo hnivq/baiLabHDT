@@ -6,9 +6,14 @@
 package com.vinhtlq2008110155.tuan7.animal;
 
 public class Dog extends Canine{
-	protected String picture = "Picture of Dog";
-	protected String food = "Thức ăn cho chó cao cấp";
-	protected int hunger = 5;
+	/**
+	 * @param picture
+	 * @param food
+	 * @param hunger
+	 */
+	public Dog(String picture, String food, int hunger) {
+		super(picture,food,hunger);
+	}
 
 	@Override
 	protected void makeNoise() {

@@ -6,6 +6,15 @@
 package com.vinhtlq2008110155.tuan7.animal;
 
 public class Lion extends Feline{
+	/**
+	 * @param picture
+	 * @param food
+	 * @param hunger
+	 */
+	public Lion(String picture, String food, int hunger) {
+		super(picture, food, hunger);	
+	}
+
 	protected String picture = "Picture of Lion";
 	protected String food = "Thịt";
 	protected int hunger = 1;

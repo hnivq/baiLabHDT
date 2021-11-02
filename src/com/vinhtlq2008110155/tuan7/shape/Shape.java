@@ -6,8 +6,28 @@
 package com.vinhtlq2008110155.tuan7.shape;
 
 public class Shape {
-	protected String sound;
+	private String sound;
 	protected boolean state = false;
+
+	public Shape(){};
+
+	public Shape(String s){
+		sound = s;
+	}
+	
+	/**
+	 * @return the sound
+	 */
+	public String getSound() {
+		return sound;
+	}
+
+	/**
+	 * @param sound the sound to set
+	 */
+	public void setSound(String sound) {
+		this.sound = sound;
+	}
 
 	protected void rotate(){
 		System.out.println("Da xoay 360, backlip cac thu"); 

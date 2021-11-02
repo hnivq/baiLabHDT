@@ -8,12 +8,13 @@ package com.vinhtlq2008110155.tuan7.shape;
 public class Amoeba extends Shape{
 	private int x;
 	private int y;
-	
-	Amoeba(String amThanh, int xx, int yy){
-		sound = amThanh;
+
+	public Amoeba(String s, int xx, int yy){
+		super(s);
 		x = xx;
 		y = yy;
 	}
+
 
 	@Override
 	protected void rotate() {
@@ -24,7 +25,7 @@ public class Amoeba extends Shape{
 	@Override
 	protected void playSound() {
 		if(state == true)
-			System.out.println("Đang mở file...");
+			System.out.println("Đang mở file... " + getSound());
 		else
 			System.out.println("Xảy ra lỗi");
 	}

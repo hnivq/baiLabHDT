@@ -5,10 +5,16 @@
 */
 package com.vinhtlq2008110155.tuan7.animal;
 
-public class Tiger extends Feline{
-	protected String picture = "Picture of tiger";
-	protected String food = "thịt";
-	protected int hunger = 1;
+public class Tiger extends Feline{	
+
+	/**
+	 * @param picture
+	 * @param food
+	 * @param hunger
+	 */
+	public Tiger(String picture, String food, int hunger) {
+		super(picture, food, hunger);
+	}
 
 	@Override
 	protected void makeNoise() {

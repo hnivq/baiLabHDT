@@ -7,6 +7,6 @@ package com.vinhtlq2008110155.tuan7.shape;
 
 public class Square extends Shape{
 	Square(String amThanh){
-		sound = amThanh;
+		super(amThanh);
 	}
 }

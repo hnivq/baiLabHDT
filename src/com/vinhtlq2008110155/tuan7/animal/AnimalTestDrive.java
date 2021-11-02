@@ -5,24 +5,37 @@
 */
 package com.vinhtlq2008110155.tuan7.animal;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AnimalTestDrive {
 	public static void main(String[] args) {
-		Cat meo = new Cat();
-		meo.makeNoise();
+		Cat meo = new Cat("picture of cat","Ăn thức ăn cho mèo cao cấp", 5);
 
-		Dog cho = new Dog();
-		cho.makeNoise();
+		Dog cho = new Dog("picture of dog", "Ăn thức ăn cho chó cao cấp", 5);
+		
+		Lion suTu = new Lion("picture of lion", "Thịt", 1);
+		
+		Wolf soi = new Wolf("picture of wolf","Thịt", 2);
+		
+		Tiger ho = new Tiger("picture of tiger","Thịt", 2);
+		
+		Hippo haMa = new Hippo("picture of hippo", "Rau củ", 5);
+		
+		List<Animal> list = new ArrayList<>();
 
-		Lion suTu = new Lion();
-		suTu.makeNoise();
+		list.add(meo);
+		list.add(cho);
+		list.add(suTu);
+		list.add(soi);
+		list.add(ho);
+		list.add(haMa);
 
-		Wolf soi = new Wolf();
-		soi.makeNoise();
-
-		Tiger ho = new Tiger();
-		ho.makeNoise();
-
-		Hippo haMa = new Hippo();
-		haMa.makeNoise();
+		for (Animal animal : list ) {
+			animal.makeNoise();
+			animal.eat();
+			animal.roam();
+			System.out.println("***************");
+		}
 	}	
 }

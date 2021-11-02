@@ -6,9 +6,15 @@
 package com.vinhtlq2008110155.tuan7.animal;
 
 public class Wolf extends Canine{
-	protected String picture = "Picture of Wolf";
-	protected String food = "Thịt";
-	protected int hunger = 1;
+
+	/**
+	 * @param picture
+	 * @param food
+	 * @param hunger
+	 */
+	public Wolf(String picture, String food, int hunger) {
+		super(picture, food, hunger);
+	}
 
 	@Override
 	protected void makeNoise() {

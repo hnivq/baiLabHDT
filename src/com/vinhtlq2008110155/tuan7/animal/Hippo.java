@@ -6,9 +6,16 @@
 package com.vinhtlq2008110155.tuan7.animal;
 
 public class Hippo extends Animal {
-	protected String picture = "Picture of Hippo";
-	protected String food = "rau củ";
-	protected int hunger = 3;
+	
+
+	/**
+	 * @param picture
+	 * @param food
+	 * @param hunger
+	 */
+	public Hippo(String picture, String food, int hunger) {
+		super(picture, food, hunger);
+	}
 
 	@Override
 	protected void makeNoise() {

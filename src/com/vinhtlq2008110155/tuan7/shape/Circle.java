@@ -7,6 +7,6 @@ package com.vinhtlq2008110155.tuan7.shape;
 
 public class Circle extends Shape {
 	Circle(String amThanh){
-		sound = amThanh;
+		super(amThanh);
 	}
 }

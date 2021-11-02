@@ -7,10 +7,11 @@ package com.vinhtlq2008110155.tuan7.shape;
 
 public class ShapeTestDrive {
 	public static void main(String[] args) {
-		Circle tron = new Circle("Circle sound");
-		Square vuong = new Square("Square sound");
-		Triangle tamGiac = new Triangle("Triangle sound");
-		Amoeba amoeba = new Amoeba("Amoeba Sound", 5, 10);
+		Circle tron = new Circle("Circle.AIF");
+		Square vuong = new Square("Square.AIF");
+		Triangle tamGiac = new Triangle("Triangle.AIF");
+		Amoeba amoeba = new Amoeba("Amoeba.HIF",5, 10);
+		
 
 		tron.rotate();
 		tron.playSound();

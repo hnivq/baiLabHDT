@@ -6,12 +6,39 @@
 package com.vinhtlq2008110155.tuan7.animal;
 
 public class Animal {
-	protected String picture;
-	protected String food;
-	protected int hunger;
-	protected String boundaries;
-	protected int location;
+	private String picture;
+	private String food;
+	private int hunger;
+	private String boundaries;
+	private int location;
 
+	public Animal(String picture, String food, int hunger)
+	{
+		this.picture = picture;
+		this.food = food;
+		this.hunger = hunger;
+	}
+
+	/**
+	 * @return the picture
+	 */
+	public String getPicture() {
+		return picture;
+	}
+
+	/**
+	 * @return the food
+	 */
+	public String getFood() {
+		return food;
+	}
+
+	/**
+	 * @return the hunger
+	 */
+	public int getHunger() {
+		return hunger;
+	}
 
 	protected void makeNoise(){
 		System.out.println("Động vật đang kêu");
