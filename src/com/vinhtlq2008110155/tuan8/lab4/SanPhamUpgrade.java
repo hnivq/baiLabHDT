@@ -4,11 +4,16 @@
 * author: hinvq
 */
 package com.vinhtlq2008110155.tuan8.lab4;
+import java.util.Scanner;
 
 public class SanPhamUpgrade {
 	private String tenSp;
 	private double donGia;
 	private double giamGia;
+
+	public SanPhamUpgrade(){
+		
+	}
 
 	public SanPhamUpgrade(String tenSp, double donGia)
 	{
@@ -88,14 +93,14 @@ public class SanPhamUpgrade {
 		System.out.println("***");
 	}
 
-	// public void nhap()
-	// {
-	// 	Scanner scanner = new Scanner(System.in);
-	// 	System.out.print("Nhập tên sản phẩm: ");
-	// 	tenSp = scanner.nextLine();
-	// 	System.out.print("Nhập đơn giá: ");
-	// 	donGia = scanner.nextDouble();
-	// 	System.out.print("Nhập giảm giá: ");
-	// 	giamGia = scanner.nextDouble();
-	// }
+	public void nhap()
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Nhập tên sản phẩm: ");
+		tenSp = scanner.nextLine();
+		System.out.print("Nhập đơn giá: ");
+		donGia = scanner.nextDouble();
+		System.out.print("Nhập giảm giá: ");
+		giamGia = scanner.nextDouble();
+	}
 }
