@@ -12,6 +12,7 @@ public class DanhSachQuanLy{
 	
 	public void them(Object object)
 	{
+		object = new Object();
 		danhSach.add(object);
 	}
 
