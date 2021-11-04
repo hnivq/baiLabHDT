@@ -27,4 +27,6 @@ public class SinhVienIT extends SinhVienGD{
 	public double getDiem() {
 		return (2*diemJava + diemHtml + diemCss)/4;
 	}
+
+	
 }

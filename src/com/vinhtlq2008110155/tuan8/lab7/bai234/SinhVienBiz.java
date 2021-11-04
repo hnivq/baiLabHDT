@@ -6,7 +6,7 @@
 package com.vinhtlq2008110155.tuan8.lab7.bai234;
 
 public class SinhVienBiz extends SinhVienGD{
-	double diemMarketing, diemSales;
+	private double diemMarketing, diemSales;
 
 	
 	
