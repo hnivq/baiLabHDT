@@ -19,7 +19,7 @@ public class KhachHang extends Nguoi{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.toString() + tenCongTy + triGiaHoaDon;
+		return super.toString() + " " + tenCongTy + " " + triGiaHoaDon;
 	}
 
 	/**

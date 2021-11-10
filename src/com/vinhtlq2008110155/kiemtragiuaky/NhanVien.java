@@ -21,7 +21,7 @@ public class NhanVien extends Nguoi{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.toString() + tinhLuong();
+		return super.toString() +" "+tinhLuong() + "VND";
 	}
 
 	/**

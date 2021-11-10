@@ -28,7 +28,7 @@ public class HocVien extends Nguoi{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return super.toString() + diemTB();
+		return super.toString() + " " +diemTB();
 	}
 
 	/**
